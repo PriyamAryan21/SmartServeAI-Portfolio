@@ -17,7 +17,7 @@ export default function Home() {
             <button className='getStarted-btn'>Get Started</button>
         </div>
         <div class="container">
-        <img src={callImage} alt="Main Image" class="main-image"/>
+        <img src={callImage} alt="Call-Image" class="main-image"/>
         <div class="box real-time-analytics">Real-Time Analytics</div>
         <div class="box multi-language-support">Multi-Language Support</div>
         <div class="box system-integration">System Integration</div>

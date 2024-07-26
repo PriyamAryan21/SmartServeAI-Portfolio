@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     padding: 40px;
-    height: 50vh;
+    /* height: 70vh; */
   }
   
   .faq-content {
@@ -13,25 +13,41 @@
   }
   
   .faq-header {
+    margin-top: 0px;
     color: black;
-    font-size: 54px;
     margin-bottom: 0;
-    font-weight: bolder;
+    font-family: Inter;
+font-size: 79.19px;
+font-weight: 700;
+line-height: 83.44px;
+text-align: left;
     margin-bottom: 10px;
   }
   
   .faq-title {
-    color: blue;
-    font-size: 54px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 79.19px;
+    font-weight: 700;
+    line-height: 83.44px;
+    text-align: left;
     margin-bottom: 30px;
+    color: rgba(65, 71, 232, 1);
+
   }
   
   .faq-description {
-    font-size: 16px;
-    font-weight: 600;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+
   }
   
   .faq-image-wrapper {
+    /* height: 25vw; */
     position: relative;
     flex: 1;
     display: flex;
@@ -83,11 +99,11 @@
     display: flex;
   }
   
-  .left {
+  .left1 {
     background-color: #44B8D2;
   }
   
-  .right {
+  .right1 {
     background-color: #7895FB;
   }
   
@@ -138,10 +154,13 @@
   
     .faq-header,
     .faq-title {
-      font-size: 30px;
+      height: 50px;
+      margin-top: 0px;
+      font-size: 40px;
     }
   
     .faq-description {
+      margin-top: 10px;
       font-size: 20px;
       font-weight: 400;
     }

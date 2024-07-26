@@ -19,20 +19,20 @@ export default function Benifits() {
           <div className='tech-slideshow forward'>
             <div className='mover'>
               {Array.from({ length: 5 }).map((_, index) => (
-                <div key={index} className='left rectangle'><p>System<br/>Integration</p></div>
+                <div key={index} className='left1 rectangle'><p>System<br/>Integration</p></div>
               ))}
               {Array.from({ length: 1 }).map((_, index) => (
-                <div key={index + 10} className='left rectangle'><p>System<br/>Integration</p></div>
+                <div key={index + 10} className='left1 rectangle'><p>System<br/>Integration</p></div>
               ))}
             </div>
           </div>
           <div className='tech-slideshow reverse'>
             <div className='mover'>
               {Array.from({ length: 5 }).map((_, index) => (
-                <div key={index} className='right rectangle'><p>System<br/>Integration</p></div>
+                <div key={index} className='right1 rectangle'><p>System<br/>Integration</p></div>
               ))}
               {Array.from({ length: 1}).map((_, index) => (
-                <div key={index + 10} className='right rectangle'><p>System<br/>Integration</p></div>
+                <div key={index + 10} className='right1 rectangle'><p>System<br/>Integration</p></div>
               ))}
             </div>
           </div>

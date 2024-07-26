@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+* {
+      margin: 0;
+      padding: 0;
+}
 .outerBox {
-      overflow-x: hidden;
       background-color: #FFE5DA;
       display: flex;
       justify-content: space-between;
@@ -11,6 +13,7 @@
       max-width: 1103px;
       border-radius: 20px;
       margin:auto;
+      overflow: hidden;
 
       input::placeholder {
             color: #3B4040;
@@ -94,6 +97,10 @@
 
             }
       }
+
+      .right{
+            margin: auto;
+      }
 }
 
 @media (max-width: 450px) {
@@ -101,11 +108,7 @@
 
             img{
                   width: 300px;
+                  margin-bottom: -70px;
             }
-      }
-
-      .left{
-            margin: 0px;
-            padding: 11px;
       }
 }

@@ -1,42 +1,30 @@
 import React from 'react'
 import './Home.css'
-import callImage from './Images/call-image.png'
+import callImage from "./Images/call-image.png"
 
 export default function Home() {
   return (
     <div className='main-container'>
         <div className="cus-satisfaction">
-            <h1>ELEVATE CUSTOMER SATISFACTION
+            <h1 className='main-header'>ELEVATE CUSTOMER SATISFACTION
                 WITH SMART SERVE AI
             </h1>
-            <p>
+            <p className='feature-texts'>
                 Efficient, Reliable, and Available 24/7 to Enhance 
                 Your Customer Support.AI-Powered Solutions to 
                 Meet Your Customer's Needs Anytime, Anywhere.
             </p>
-            <button>Get Started</button>
+            <button className='getStarted-btn'>Get Started</button>
         </div>
-        <div className='featuresProvided'>
-            <div className="features" id="Multi-Language">
-                <p>Multi-Language Support</p>
-            </div>
-            <div className="features" id="Real-Time">
-                <p>Real-Time Analytics</p>
-            </div>
-            <div className="features" id="Call-Reception">
-                <p>24/7 Call Reception</p>
-            </div>
-            <div className="features" id="Scalability">
-                <p>Scalability</p>
-            </div>
-            <div className="features" id="Detailed-Reporting">
-                <p>Detailed Reporting</p>
-            </div>
-            <div className="features" id="System-Integration">
-                <p>System Integration</p>
-            </div>
-            <img className='call-img' src={callImage} alt="Call-Image" />
-        </div>
+        <div class="container">
+        <img src={callImage} alt="Main Image" class="main-image"/>
+        <div class="box real-time-analytics">Real-Time Analytics</div>
+        <div class="box multi-language-support">Multi-Language Support</div>
+        <div class="box system-integration">System Integration</div>
+        <div class="box call-reception">24/7 Call Reception</div>
+        <div class="box detailed-reporting">Detailed Reporting</div>
+        <div class="box scalability">Scalability</div>
+      </div>
     </div>
   )
 }

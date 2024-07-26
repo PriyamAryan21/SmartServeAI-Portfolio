@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.main-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.cus-satisfaction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .main-header{
+        font-size: 76.61px;
+        font-weight: 800;
+        line-height: 104.47px;
+        text-align: center;
+        margin-bottom: 0px;
+    } 
+    .feature-texts{
+        width: 698px;
+        height: 123px;
+        top: 405px;
+        left: 371.5px;
+        gap: 0px;
+        opacity: 0px;
+        font-size: 27.8px;
+        font-weight: 600;
+        line-height: 33.64px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: rgba(52, 52, 52, 1);
+
+    }   
+    .getStarted-btn{
+        width: 229.79px;
+        height: 74px;
+        gap: 0px;
+        border-radius: 15.58px;
+        border: 0px;
+        opacity: 0px;
+        background: rgba(65, 71, 232, 1);
+        font-size: 21.56px;
+        font-weight: 700;
+        line-height: 26.09px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: white;
+    }
+}
+
+.featuresProvided{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 629px;
+    width: 1444px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.features{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 173px;
+    height: 127px;
+    gap: 0px;
+    border-radius: 18px;
+    opacity: 0px;
+    .key-points{
+        font-family: Inter;
+        font-size: 21.46px;
+        font-weight: 500;
+        line-height: 22.61px;
+        text-align: center;
+        color: white;
+    }
+}
+
+#Real-Time{ /*Tile 02*/
+    animation-name: real-time;
+    animation-duration: 2s;
+    top: 612px;
+    left: 319px; 
+    background: rgba(39, 181, 255, 1);
+}
+
+#Multi-Language{ /*Tile 04*/
+    animation-name: multi-language;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    top: 600px;
+    left: 720.5px;
+    background: rgba(249, 81, 120, 1);
+}
+
+#Call-Reception{ /* Tile 06*/
+    animation-name: call-reception;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    top: 884px;
+    left: 334px;
+    background: rgba(82, 120, 255, 1); 
+}
+
+#Scalability{ /*Tile 05*/
+    animation-name: scalability;
+    animation-duration: 2s;
+    top: 1094px;
+    left: 675px;
+    background: rgba(143, 74, 143, 1);
+}
+
+#Detailed-Reporting{ /*Tile 01*/
+    animation-name: detailed-reporting;
+    animation-duration: 2s; 
+    top: 972px;
+    left: 976px;
+    background: rgba(255, 153, 0, 1);
+}
+
+#System-Integration{ /*Tile 03*/
+    animation-name: system-integration;
+    animation-duration: 2s;
+    top: 719px;
+    left: 1036px;
+    background: rgba(234, 155, 122, 1);
+}
+
+@media screen and (min-width: 480px)
+{
+    
+}
+
+@keyframes real-time{
+    0%{
+        top: 288px;
+        left: 0vw;
+        transform: rotate(-30deg);
+    }
+    50%{
+        top: 288px;
+        left: 94px;
+        transform: rotate(-30deg);
+    }
+    100%{
+        top: 612px;
+        left: 319px;
+        transform: rotate(0deg); 
+    }
+}
+
+@keyframes multi-language{
+    0%{
+        transform: rotate(-15deg);
+        top: 215px;
+        left: 100vw;
+    }
+    50%{
+        top: 215px;
+        left: calc(100vw - 278.5px);
+        transform: rotate(-15deg);
+    }
+    100%{
+        top: 600px;
+        left: 720.5px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes system-integration {
+    0%{
+        top: 406px;
+        left: 100vw;
+    }
+    50%{
+        top: 406px;
+        left: calc(100vw - 232px);
+    }
+    100%{
+        transform: rotate(0deg);
+        top: 719px;
+        left: 1036px;
+    }
+}
+
+@keyframes call-reception{
+    0%{
+        transform: rotate(30deg);
+        top: 573px;
+        left: -10vh;
+    }
+    50%{
+        transform: rotate(30deg);
+        top: 573px;
+        left: -37px;
+    }
+    100%{
+        top: 884px;
+        left: 334px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes scalability{
+    0%{
+        transform: rotate(30deg);
+        top: calc(100vh - 45px);
+        left: 100vw;
+    }
+    50%{
+        top: calc(100vh - 45px);
+    transform: rotate(30deg);
+    left: calc(100vw - 495px);
+    }
+    100%{
+        top: 1094px;
+        left: 675px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes detailed-reporting{
+    0%{
+        top: calc(100vh - 50px);
+        transform: rotate(-30deg);
+        left: -10vh;
+    }
+    50%{
+        top: calc(100vh - 50px);
+        transform: rotate(-30deg);
+        left: 376px;
+    }
+    100%{
+        top: 972px;
+        left: 976px;
+        transform: rotate(0deg);
+    }
+}

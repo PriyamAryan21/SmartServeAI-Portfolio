@@ -32,7 +32,7 @@ function Form() {
             const t1 = gsap.timeline({
                   scrollTrigger: {
                         trigger: '.outerBox',
-                        markers: true,
+                        // markers: true,
                         start: '0% 50%',
                   }
             });

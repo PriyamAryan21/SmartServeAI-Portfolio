@@ -16,14 +16,14 @@ export default function Home() {
             </p>
             <button className='getStarted-btn'>Get Started</button>
         </div>
-        <div class="container">
-        <img src={callImage} alt="Call-Image" class="main-image"/>
-        <div class="box real-time-analytics">Real-Time Analytics</div>
-        <div class="box multi-language-support">Multi-Language Support</div>
-        <div class="box system-integration">System Integration</div>
-        <div class="box call-reception">24/7 Call Reception</div>
-        <div class="box detailed-reporting">Detailed Reporting</div>
-        <div class="box scalability">Scalability</div>
+        <div className="container">
+        <img src={callImage} alt="Call-Image" className="main-image"/>
+        <div className="box real-time-analytics">Real-Time Analytics</div>
+        <div className="box multi-language-support">Multi-Language Support</div>
+        <div className="box system-integration">System Integration</div>
+        <div className="box call-reception">24/7 Call Reception</div>
+        <div className="box detailed-reporting">Detailed Reporting</div>
+        <div className="box scalability">Scalability</div>
       </div>
     </div>
   )
